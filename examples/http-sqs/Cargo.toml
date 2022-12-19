@@ -22,4 +22,7 @@ tokio = { version = "1", features = ["macros"] }
 tracing = { version = "0.1.37"}
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
+[dependencies.structopt]
+version = "0.3"
+default-features = false
 
